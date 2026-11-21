@@ -1,0 +1,10 @@
+2026/11/11-15:15:20.463 5d60 Creating DB c:\Users\Admin\Documents\micel\newfpfr\chrome_temp_profile\Default\IndexedDB\http_localhost_4173.indexeddb.leveldb since it was missing.
+2026/11/11-15:15:20.467 5d60 Reusing MANIFEST c:\Users\Admin\Documents\micel\newfpfr\chrome_temp_profile\Default\IndexedDB\http_localhost_4173.indexeddb.leveldb/MANIFEST-000001
+2026/11/11-15:15:20.508 5d64 Level-0 table #5: started
+2026/11/11-15:15:20.510 5d64 Level-0 table #5: 1264 bytes OK
+2026/11/11-15:15:20.511 5d64 Delete type=0 #3
+2026/11/11-15:15:20.511 5d60 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/11/11-15:15:21.382 5d54 Level-0 table #7: started
+2026/11/11-15:15:21.383 5d54 Level-0 table #7: 1957 bytes OK
+2026/11/11-15:15:21.385 5d54 Delete type=0 #4
+2026/11/11-15:15:21.385 5d60 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

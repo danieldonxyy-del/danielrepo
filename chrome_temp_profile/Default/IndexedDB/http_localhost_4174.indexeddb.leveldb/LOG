@@ -1,0 +1,42 @@
+2026/11/11-15:21:45.246 586c Creating DB c:\Users\Admin\Documents\micel\newfpfr\chrome_temp_profile\Default\IndexedDB\http_localhost_4174.indexeddb.leveldb since it was missing.
+2026/11/11-15:21:45.253 586c Reusing MANIFEST c:\Users\Admin\Documents\micel\newfpfr\chrome_temp_profile\Default\IndexedDB\http_localhost_4174.indexeddb.leveldb/MANIFEST-000001
+2026/11/11-15:21:45.294 4dbc Level-0 table #5: started
+2026/11/11-15:21:45.295 4dbc Level-0 table #5: 1284 bytes OK
+2026/11/11-15:21:45.296 4dbc Delete type=0 #3
+2026/11/11-15:21:45.296 4dbc Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/11/11-15:21:46.180 4dbc Level-0 table #7: started
+2026/11/11-15:21:46.182 4dbc Level-0 table #7: 1896 bytes OK
+2026/11/11-15:21:46.183 4dbc Delete type=0 #4
+2026/11/11-15:21:46.183 586c Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/11/11-15:21:50.906 4dbc Level-0 table #9: started
+2026/11/11-15:21:50.907 4dbc Level-0 table #9: 935 bytes OK
+2026/11/11-15:21:50.908 4dbc Delete type=0 #6
+2026/11/11-15:21:50.908 586c Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 165 : 1
+2026/11/11-15:21:50.908 586c Compacting 1@0 + 1@1 files
+2026/11/11-15:21:50.910 586c Generated table #10@0: 56 keys, 1492 bytes
+2026/11/11-15:21:50.910 586c Compacted 1@0 + 1@1 files => 1492 bytes
+2026/11/11-15:21:50.910 586c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/11-15:21:50.910 586c Delete type=2 #9
+2026/11/11-15:21:50.911 586c Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 165 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/11/11-15:21:53.461 4dbc Level-0 table #12: started
+2026/11/11-15:21:53.462 4dbc Level-0 table #12: 935 bytes OK
+2026/11/11-15:21:53.463 4dbc Delete type=2 #7
+2026/11/11-15:21:53.463 4dbc Delete type=0 #8
+2026/11/11-15:21:53.464 586c Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 198 : 1
+2026/11/11-15:21:53.464 586c Compacting 1@0 + 1@1 files
+2026/11/11-15:21:53.465 586c Generated table #13@0: 64 keys, 1553 bytes
+2026/11/11-15:21:53.465 586c Compacted 1@0 + 1@1 files => 1553 bytes
+2026/11/11-15:21:53.465 586c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/11-15:21:53.466 586c Delete type=2 #12
+2026/11/11-15:21:53.466 586c Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 198 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/11/11-15:21:56.078 4dbc Level-0 table #15: started
+2026/11/11-15:21:56.079 4dbc Level-0 table #15: 933 bytes OK
+2026/11/11-15:21:56.080 4dbc Delete type=2 #10
+2026/11/11-15:21:56.080 4dbc Delete type=0 #11
+2026/11/11-15:21:56.081 586c Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 231 : 1
+2026/11/11-15:21:56.081 586c Compacting 1@0 + 1@1 files
+2026/11/11-15:21:56.083 586c Generated table #16@0: 72 keys, 1640 bytes
+2026/11/11-15:21:56.083 586c Compacted 1@0 + 1@1 files => 1640 bytes
+2026/11/11-15:21:56.083 586c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/11-15:21:56.084 586c Delete type=2 #15
+2026/11/11-15:21:56.084 586c Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 231 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    /* Institutional Modern Palette - Universitas Klabat (UNKLAB) Theme */
+    --background: #f4f6f8;        /* Soft neutral canvas #F4F6F8 */
+    --foreground: #0f172a;        /* Deep slate text */
+    --card: #ffffff;              /* Clean white cards #FFFFFF */
+    --card-foreground: #0f172a;
+    
+    /* Institutional Primary: Deep Navy (#142D4E) */
+    --primary: #142d4e;
+    --primary-foreground: #ffffff;
+    
+    /* Secondary & Muted: Slate & Soft Neutral */
+    --secondary: #f1f5f9;
+    --secondary-foreground: #1e293b;
+    --muted: #f4f6f8;
+    --muted-foreground: #64748b;  /* Slate text #64748B */
+    --border: #e2e8f0;            /* Subtle border */
+    
+    /* Accent: Institutional Muted Gold (#D6A84B) */
+    --accent: #d6a84b;
+    --accent-foreground: #ffffff;
+    
+    /* Focus & Ring */
+    --ring: #142d4e;
+  }
+
+  .dark {
+    --background: #0b1320;        /* Deep navy dark slate */
+    --foreground: #f8fafc;
+    --card: #111c2e;              /* Deep navy card surface */
+    --card-foreground: #f8fafc;
+    
+    --primary: #2563eb;           /* Elevated royal blue in dark mode */
+    --primary-foreground: #ffffff;
+    
+    --secondary: #162238;
+    --secondary-foreground: #f8fafc;
+    --muted: #131e31;
+    --muted-foreground: #94a3b8;
+    --border: #1e2d45;
+    
+    --accent: #e2b965;
+    --accent-foreground: #0f172a;
+    
+    --ring: #3b82f6;
+  }
+
+  * {
+    border-color: var(--border);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Institutional utilities & clean transitions */
+.bg-navy-900 {
+  background-color: #142d4e;
+}
+.text-navy-900 {
+  color: #142d4e;
+}
+.border-navy-900 {
+  border-color: #142d4e;
+}
+
+.bg-gold-500 {
+  background-color: #d6a84b;
+}
+.text-gold-500 {
+  color: #d6a84b;
+}
+.text-gold-600 {
+  color: #b98e36;
+}
+
+/* Custom QR scanline animation */
+@keyframes scanline {
+  0% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(var(--scan-distance, 6rem));
+    opacity: 0.8;
+  }
+}
+
+.animate-scan {
+  animation: scanline 2.2s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-scan {
+    animation: none;
+    transform: translateY(var(--scan-distance, 0));
+  }
+}
